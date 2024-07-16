@@ -1,93 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Shahin's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td> <img src="Images/My_pic.jpg"></td>
-                <td>
-                    <h1>Shahin Gholoubi</h1>
-                    <p><em><strong>Architect and Programming lover❤️</strong></em></p>
-                    <p>
-                        I'm Shahin, I live in <a href="https://en.wikipedia.org/wiki/Rasht">Rasht</a>.I love my city specially cause
-                        of its rainy whether.
-                        I also love programming and hopefully I will be one of the best someday soon.
-                    </p>
-                </td>
-            </tr>
-        </table>
-
-        <hr size="3">
-        <h3>Education 📖</h3>
-        <p>I have educated at:</p>
-            <ul>
-                <li>Nabovat <i>Elementary school</i> for 5 years</li>
-                <li>Tabane Shomal <i>Middle school</i> for 1 year</li>
-                <li>Andishmandan<i>Middle school</i> for 2 years</li>
-                <li>Baharestan <i>High school</i> for 4 years</li>
-                <li><a href="https://english.guilan.ac.ir/"> Guilan <i>University</i></a> for 5 years</li>
-            </ul>
-        <hr>
-        <h3>Hobbies 🎮</h3>
-            <ol>
-                <li><a href="https://steamcommunity.com/profiles/76561199209578148/">Dota 2 </a> <i>video game</i></li>
-                <li>TV series</li>
-                <li>Twitch</li>
-                <li>Youtube</li>
-            </ol>
-        <hr>
-        <h3>Work Experience 💻</h3>
-            <table cellspacing="10">
-                <thead>
-                    <tr>
-                        <th>Dates</th>
-                        <th>Work</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2024</td>
-                        <td>Python related projects</td>
-                    </tr>
-                </tbody>
-            </table>
-        <hr>
-        <h3>Skills</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Computer Related</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Programming</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Architecture</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>painting</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h3><a href="contact_page.html"> Contact Me</a> 📒</h3>
+<head>
+    <meta charset="UTF-8">
+    <title>Shahin Gholoubi</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Shahin.</h1>
+        <h2 class="below-name">An Architect and Programming lover❤️</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-img" src="images/my-pic.png" alt="Shahin's picture">
+        <h2>Hello.</h2>
+        <p class="bio">I live in <a href="https://en.wikipedia.org/wiki/Rasht">Rasht</a>.I love my city specially cause
+            of its rainy whether.I also love programming and hopefully I will be one of the best someday soon.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="computer-img" src="images/computer-img.png" alt="Computer-Image">
+          <h3>Computer Proficiency 💻</h3>
+          <p>I spend most of my time working with my laptop, whether it's coding and learning programming or
+              working with architecture-related softwares like AutoCAD, etc.</p>
+        </div>
+        <div class="skill-row">
+          <img class="programming-img" src="images/programming-img.png" alt="Programming-Image">
+          <h3>Programming 🧑🏻‍💻</h3>
+          <p>I love programming. I started learning Python in early 2024 and
+              will continue to enhance my skills in this area.</p>
+        </div>
+          <div class="skill-row">
+          <img class="architecture-img" src="images/architecture-img.png" alt="Programming-Image">
+          <h3>Architecture 🏯</h3>
+          <p>I have a bachelor's degree in Architecture from
+              <a href="https://english.guilan.ac.ir/">Guilan University</a>.</p>
+        </div>
+      </div>
+      <hr id="bottom-hr">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <p class="contact-message">Feel free to get in touch with me for any inquiries, collaborations, or opportunities.
+        I would love to hear from you.</p>
+        <a class="btn" href="mailto:shahing650@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
 
+    <div class="bottom-container">
+                <a class="footer-link" href="https://www.instagram.com/g.shahin/">Instagram</a>
+                <a class="footer-link" href="https://t.me/shahin1gh">Telegram</a>
+                <p id="copy-right">© 2024 Shahin Gholoubi.</p>
+    </div>
 
-    </body>
+</body>
 </html>
